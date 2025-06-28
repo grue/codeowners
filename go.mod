@@ -1,4 +1,4 @@
-module github.com/hmarr/codeowners
+module github.com/grue/codeowners
 
 go 1.18
 

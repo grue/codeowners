@@ -1,7 +1,7 @@
 # codeowners
 
-![build](https://github.com/hmarr/codeowners/workflows/build/badge.svg)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/hmarr/codeowners)](https://pkg.go.dev/github.com/hmarr/codeowners)
+![build](https://github.com/grue/codeowners/workflows/build/badge.svg)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/grue/codeowners)](https://pkg.go.dev/github.com/grue/codeowners)
 
 A CLI and Go library for GitHub's [CODEOWNERS file](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/about-code-owners#codeowners-syntax).
 
@@ -11,17 +11,17 @@ The `codeowners` CLI identifies the owners for files in a local repository or di
 
 ### Installation
 
-If you're on macOS, you can install the CLI from the [homebrew tap](https://github.com/hmarr/homebrew-tap#codeowners).
+If you're on macOS, you can install the CLI from the [homebrew tap](https://github.com/grue/homebrew-tap#codeowners).
 
 ```console
-$ brew tap hmarr/tap
+$ brew tap grue/tap
 $ brew install codeowners
 ```
 
-Otherwise, grab a binary from the [releases page](https://github.com/hmarr/codeowners/releases) or install from source with `go install`:
+Otherwise, grab a binary from the [releases page](https://github.com/grue/codeowners/releases) or install from source with `go install`:
 
 ```console
-$ go install github.com/hmarr/codeowners/cmd/codeowners@latest
+$ go install github.com/grue/codeowners/cmd/codeowners@latest
 ```
 
 ### Usage
@@ -82,12 +82,12 @@ A package for parsing CODEOWNERS files and matching files to owners.
 ### Installation
 
 ```console
-$ go get github.com/hmarr/codeowners
+$ go get github.com/grue/codeowners
 ```
 
 ### Usage
 
-Full documentation is available at [pkg.go.dev](https://pkg.go.dev/github.com/hmarr/codeowners).
+Full documentation is available at [pkg.go.dev](https://pkg.go.dev/github.com/grue/codeowners).
 
 Here's a quick example to get you started:
 
@@ -99,7 +99,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/hmarr/codeowners"
+	"github.com/grue/codeowners"
 )
 
 func main() {
